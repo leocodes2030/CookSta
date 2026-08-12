@@ -1,6 +1,6 @@
 ## Kanban e indicadores
 
-![<img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/6b6b6f83-c47b-4dca-b865-8dd6ba3eca59" />]
+<img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/6b6b6f83-c47b-4dca-b865-8dd6ba3eca59" />
 
 figma: https://www.figma.com/make/NvI2BXPh1emO4y4H31xh6I/Cooksta-social-app?code-node-id=0-9&p=f&t=VNJCe03iuTXEX8Nt-0&fullscreen=1
 trello: https://trello.com/b/j2Cbq6W1
