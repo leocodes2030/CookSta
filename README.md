@@ -1,4 +1,4 @@
-## Kanban e indicadores
+<img width="1915" height="852" alt="image" src="https://github.com/user-attachments/assets/21e7d310-2610-40bb-87f9-80551bf7d0fa" />## Kanban e indicadores
 
 ![Print do Trello] <img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/c6924ab6-f0d2-439b-b3ca-b6c02c817d6b" />
 
@@ -43,4 +43,17 @@ MVP: https://mvp-cooksta.netlify.app/
 
 “Agora, queremos levar o Cooksta para mais pessoas e transformar a maneira como elas descobrem lugares para comer durante suas viagens. *Cooksta: descubra, compartilhe e experimente.*”
 
+## Screenshots da aplicação
+
+<img width="1898" height="853" alt="image" src="https://github.com/user-attachments/assets/47b7ae17-aa77-46a2-ab6c-cdb97eb098d9" />
+
+* Tela inicial do MVP *
+
+<img width="1910" height="850" alt="image" src="https://github.com/user-attachments/assets/8169344e-3cba-4b57-813c-bb2d7967e25d" />
+
+* Tela onde o usuário faz o pedido *
+
+<img width="1918" height="798" alt="image" src="https://github.com/user-attachments/assets/a627e055-1f6a-4261-8c9e-f8691b18e21a" />
+
+* Tela de confirmação do pedido *
 
