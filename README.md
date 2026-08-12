@@ -1,4 +1,4 @@
-<img width="1915" height="852" alt="image" src="https://github.com/user-attachments/assets/21e7d310-2610-40bb-87f9-80551bf7d0fa" />## Kanban e indicadores
+## Kanban e indicadores
 
 ![Print do Trello] <img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/c6924ab6-f0d2-439b-b3ca-b6c02c817d6b" />
 
