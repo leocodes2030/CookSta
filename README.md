@@ -21,3 +21,5 @@ MVP: https://mvp-cooksta.netlify.app/
 - ** Principais feedbacks :**
   - "O site parece uma ideia interessante!."
   - "Cara, parece exatamente algo que eu preciso, por favor, se fizerem, mande pra mim o link."
+
+
