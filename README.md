@@ -21,5 +21,26 @@ MVP: https://mvp-cooksta.netlify.app/
 - ** Principais feedbacks :**
   - "O site parece uma ideia interessante!."
   - "Cara, parece exatamente algo que eu preciso, por favor, se fizerem, mande pra mim o link."
+ 
+##Roteiro do Pitch
+### Contexto
+
+“Somos alunos do curso de Desenvolvimento de Sistemas e percebemos que muitas vezes, quando as pessoas viajam, elas têm dificuldade para encontrar lugares bons para comer e acabam dependendo de avaliações genéricas ou indicações espalhadas pela internet.”
+
+### Conflito
+
+“O principal problema que queremos resolver é a dificuldade de encontrar restaurantes que realmente combinem com o gosto de cada pessoa, além de facilitar o compartilhamento de experiências gastronômicas.”
+
+### Solução
+
+“Para isso, criamos o *Cooksta*, que funciona da seguinte forma: os usuários podem descobrir restaurantes, compartilhar suas experiências, avaliar lugares e encontrar recomendações de outras pessoas, tudo em uma única plataforma.”
+
+### Prova
+
+“Testamos com *[número] usuários* e obtivemos *[métrica/resultado]*, mostrando que existe interesse em uma plataforma que facilite a descoberta de novos lugares para comer.”
+
+### Chamada para ação
+
+“Agora, queremos levar o Cooksta para mais pessoas e transformar a maneira como elas descobrem lugares para comer durante suas viagens. *Cooksta: descubra, compartilhe e experimente.*”
 
 
