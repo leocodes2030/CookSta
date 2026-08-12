@@ -1,6 +1,6 @@
 ## Kanban e indicadores
 
-![Print do Trello] <img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/c6924ab6-f0d2-439b-b3ca-b6c02c817d6b" />
+<img width="1134" height="296" alt="image" src="https://github.com/user-attachments/assets/c6924ab6-f0d2-439b-b3ca-b6c02c817d6b" />
 
 | Indicador |
 | - - - - - - - - - - -|
