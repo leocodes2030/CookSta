@@ -1,0 +1,3 @@
+const total = precos.map((p) => { p * 2 });
+
+o fato de "p*2" estar entre chaves faz o codigo executar de forma incorreta

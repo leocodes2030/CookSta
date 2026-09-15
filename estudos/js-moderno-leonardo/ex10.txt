@@ -1,0 +1,1 @@
+A diferença é que import Botao importa uma exportação padrão (export default), permitindo que você dê qualquer nome ao componente, enquanto import { Botao } busca uma exportação nomeada (export), exigindo que o nome dentro das chaves seja idêntico ao do arquivo de origem.
