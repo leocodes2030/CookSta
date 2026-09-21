@@ -1,0 +1,1 @@
+O método map transforma cada elemento de um array em um novo valor, enquanto o filter cria um novo array contendo apenas os elementos que atendem a uma condição específica.
