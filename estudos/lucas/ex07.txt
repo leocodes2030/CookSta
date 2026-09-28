@@ -1,0 +1,1 @@
+falta a palavra async no function e faltar converter a resposta do fetch

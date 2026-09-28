@@ -1,0 +1,2 @@
+pq no java script o async precisa do async para saber que a função vai rodar em segundo plano
+e tambem evita que o await seja confundido com outras variaveis no código

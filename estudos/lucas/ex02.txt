@@ -1,0 +1,1 @@
+pending, fulfilled e rejected

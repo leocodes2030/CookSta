@@ -1,0 +1,1 @@
+o await pausa somente a função async onde ele esta, o resto continua normal
