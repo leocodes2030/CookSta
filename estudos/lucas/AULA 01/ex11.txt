@@ -1,0 +1,2 @@
+Porque push altera diretamente o array original
+e o react trabalha melhor quando o estado é atualizado criando um novo array

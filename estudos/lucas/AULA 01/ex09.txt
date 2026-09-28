@@ -1,0 +1,1 @@
+Falta o return, então o map gera uma lista undefined, ficaria: const total = precos.map(p => p * 2);
