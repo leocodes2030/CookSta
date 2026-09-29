@@ -1,0 +1,2 @@
+A diferença é que o primeiro importa um export padrão (default), enquanto o segundo importa um export nomeado. O export nomeado precisa ter o mesmo nome usado na exportação.
+  

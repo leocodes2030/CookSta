@@ -1,0 +1,3 @@
+O await pausa somente a função async onde ele está, e não o programa inteiro.
+
+Enquanto aquela função espera, o restante do programa pode continuar executando.

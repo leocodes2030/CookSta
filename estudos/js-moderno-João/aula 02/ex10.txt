@@ -1,0 +1,1 @@
+Porque o map() é executado imediatamente e, quando usamos uma função async, cada elemento produz uma Promise.

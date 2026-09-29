@@ -1,0 +1,5 @@
+Falha na requisição: acontece quando não foi possível fazer a comunicação, por exemplo, sem internet ou servidor indisponível.
+
+Erro HTTP: acontece quando o servidor respondeu, mas informou um problema, como 404 (página/recurso não encontrado).
+
+O fetch() normalmente não considera um status HTTP como 404 uma rejeição da Promise. Para ele, a comunicação aconteceu normalmente: o servidor respondeu.

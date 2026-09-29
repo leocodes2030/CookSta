@@ -1,0 +1,5 @@
+Os três estados são:
+
+Pending (pendente) → ainda está esperando terminar.
+Fulfilled (realizada) → terminou com sucesso.
+Rejected (rejeitada) → terminou com erro.

@@ -1,0 +1,2 @@
+O map transforma cada elemento de uma lista, enquanto o filter seleciona apenas os elementos que atendem a uma condição
+

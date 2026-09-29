@@ -1,0 +1,1 @@
+Porque o push altera a lista original diretamente, e o React pode não perceber essa alteração para atualizar a tela. O ideal é criar uma nova lista em vez de modificar a existente.

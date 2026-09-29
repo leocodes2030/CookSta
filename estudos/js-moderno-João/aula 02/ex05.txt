@@ -1,0 +1,3 @@
+Porque o await é usado para esperar o resultado de uma Promise dentro de uma função assíncrona.
+
+Por isso, a função precisa ser marcada com async.
