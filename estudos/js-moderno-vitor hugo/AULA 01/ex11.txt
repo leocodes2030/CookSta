@@ -1,0 +1,1 @@
+push altera diretamente a lista original. No React, isso é um problema porque o estado deve ser atualizado criando uma nova lista.
