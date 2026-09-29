@@ -1,0 +1,2 @@
+import Botao from "./Botao.js" importa uma exportação padrão
+enquanto import { Botao } from "./Botao.js" importa uma exportação nomeada

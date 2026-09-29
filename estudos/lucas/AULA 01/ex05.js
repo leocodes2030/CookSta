@@ -1,0 +1,1 @@
+const ehCaro = numero => numero > 100;

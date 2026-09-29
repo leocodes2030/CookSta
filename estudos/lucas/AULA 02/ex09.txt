@@ -1,0 +1,2 @@
+Na falha de requisição, o fetch gera um erro, ai em um erro HTTP, como 404
+o servidor responde normalmente, então o fetch não considera isso uma falha e não lança erro automaticamente
