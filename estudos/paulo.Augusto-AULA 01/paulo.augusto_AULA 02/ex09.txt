@@ -1,0 +1,3 @@
+Falha de Conexão: Ocorre quando a requisição nem sequer consegue chegar ao destino ou ser concluída — por falta de acesso à internet, DNS incorreto ou servidor offline. Nesses cenários, a Promise do fetch() é rejeitada e cai no bloco .catch().
+Erro HTTP: Ocorre quando o servidor é alcançado com sucesso e devolve uma resposta, porém indicando uma falha do lado do cliente ou servidor (como os status 404 Not Found ou 500 Internal Server Error).
+Por padrão, o fetch() considera qualquer resposta vinda do servidor uma operação bem-sucedida (Promise resolvida/fulfilled), mesmo que ela contenha um status de erro como 404. Para identificar e tratar erros de status HTTP, é necessário verificar manualmente a propriedade resposta.ok.

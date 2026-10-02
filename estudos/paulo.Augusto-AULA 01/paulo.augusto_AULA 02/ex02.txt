@@ -1,0 +1,4 @@
+ma Promise transita entre três fases bem definidas ao longo do seu ciclo de vida:
+Em andamento (Pending): O ponto de partida. A operação foi iniciada, mas o resultado final ainda não foi processado.
+Resolvida (Fulfilled): A jornada terminou como esperado, entregando o dado ou a resposta solicitada.
+Falhada (Rejected): A operação encontrou um obstáculo e foi interrompida, retornando a causa do problema.

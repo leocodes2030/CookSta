@@ -1,0 +1,6 @@
+Uma Promise no JavaScript funciona como uma promessa no mundo real: um compromisso de entregar um resultado no futuro.
+Ela representa um valor que ainda não está disponível, mas que mudará de estado até ser resolvida:
+Pendente (Pending): A tarefa assíncrona ainda está em andamento (ex: buscando dados de um servidor).
+Concluída com sucesso (Fulfilled): A operação deu certo e o resultado final foi retornado.
+Rejeitada (Rejected): Algo deu errado durante o processo e um erro foi capturado.
+Em suma, é uma estrutura que permite lidar com tarefas assíncronas sem travar a execução do código, retornando o valor esperado ou o motivo da falha.

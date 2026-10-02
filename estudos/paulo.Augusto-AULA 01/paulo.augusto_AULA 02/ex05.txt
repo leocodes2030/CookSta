@@ -1,0 +1,2 @@
+O uso do await exige que a função seja declarada como async para sinalizar ao JavaScript que aquele bloco de código processará operações assíncronas.
+A palavra-chave async funciona como uma autorização prévia, permitindo que o operador await congele temporariamente a execução interna até que a Promise seja resolvida, sem congelar a aplicação como um todo.

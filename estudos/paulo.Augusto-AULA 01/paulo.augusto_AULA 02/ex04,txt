@@ -1,0 +1,2 @@
+O await cria um ponto de pausa local: ele suspende apenas a execução do bloco da função async em que se encontra, liberando o fluxo principal da aplicação.
+Dessa forma, a thread do JavaScript continua livre para processar outras tarefas, eventos e scripts em paralelo enquanto aguarda a resposta daquela operação.
