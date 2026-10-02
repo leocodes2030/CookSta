@@ -1,0 +1,1 @@
+Rodar esse código não espera os detalhes chegarem porque o método .map() não foi projetado para entender funções assíncronas. Ele executa todas as iterações de forma síncrona e imediata.

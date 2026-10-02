@@ -1,0 +1,1 @@
+A diferença principal está em onde o problema aconteceu: na comunicação com o servidor ou na lógica do próprio servidor.
