@@ -1,0 +1,5 @@
+Os três estados são:
+
+Pending (pendente) = ainda está esperando terminar o código.
+Fulfilled (realizada) = terminou com sucesso o código.
+Rejected (rejeitada) = terminou com erro o código.

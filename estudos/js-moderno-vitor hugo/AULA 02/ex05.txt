@@ -1,0 +1,1 @@
+Colocar await fora de uma função async dá erro porque o JavaScript precisa saber antecipadamente quais funções podem ser pausadas para poder gerenciar o fluxo do programa sem travar tudo.

@@ -1,0 +1,1 @@
+Uma Promise é um objeto em JavaScript que representa o sucesso ou a falha eventual de uma operação assíncrona, funcionando como um "combinado" de que um resultado será entregue no futuro
