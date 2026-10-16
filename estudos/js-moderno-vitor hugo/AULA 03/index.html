@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 03 — JS puro</title>
+</head>
+<body>
+  <h1>Lista de tarefas</h1>
+
+  <!-- Estrutura da tela -->
+  <p id="contador"></p>
+  <ul id="lista"></ul>
+
+  <input id="novo" placeholder="nova tarefa">
+  <button id="add">Adicionar</button>
+
+  <script>
+    // Dados iniciais
+    let tarefas = [
+      { id: 1, texto: "Estudar React", feita: false },
+      { id: 2, texto: "Levar o cachorro", feita: true }
+    ];
+
+    // Função que redesenha a tela inteira
+    function desenhar() {
+      const ul = document.getElementById("lista");
+      ul.innerHTML = "";
+
+      for (const t of tarefas) {
+        const li = document.createElement("li");
+        li.textContent = t.texto + (t.feita ? " (feita)" : "");
+        ul.appendChild(li);
+      }
+
+      document.getElementById("contador").textContent =
+        tarefas.length + " tarefas";
+    }
+
+    // Evento do botão Adicionar
+    document.getElementById("add").addEventListener("click", () => {
+      const input = document.getElementById("novo");
+
+      tarefas.push({
+        id: Date.now(),
+        texto: input.value,
+        feita: false
+      });
+
+      input.value = "";
+      desenhar();
+    });
+
+    // Primeira renderização
+    desenhar();
+  </script>
+</body>
+</html>
