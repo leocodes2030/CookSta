@@ -1,0 +1,24 @@
+EXPERIMENTO 3: Conte quantos lugares (CookSta)
+
+O que fiz: pedi para a tela mostrar também quantos restaurantes são favoritos e um aviso quando a lista estiver vazia (código completo em versao1_experimento3.html).
+
+Trechos que precisei tocar:
+
+HTML (2 trechos):
+  1. Novo elemento para o contador de favoritos: <p id="favoritos"></p>
+  2. Novo elemento para o aviso de lista vazia:  <p id="aviso"></p>
+
+JavaScript, dentro de desenhar() (3 trechos):
+  3. Calcular quantos são favoritos:
+         const qtdFavoritos = restaurantes.filter(r => r.favorito).length;
+  4. Escrever o contador de favoritos na tela:
+         document.getElementById("favoritos").textContent = qtdFavoritos + " favoritos";
+  5. Mostrar ou esconder o aviso de lista vazia:
+         document.getElementById("aviso").textContent =
+             restaurantes.length === 0 ? "Nenhum restaurante anunciado ainda" : "";
+
+Total: 5 trechos em 2 lugares diferentes (HTML e JavaScript).
+
+Obs.: a tela não tem botão de remover, então para ver o aviso de lista vazia testei começando com let restaurantes = []; (aparece "0 restaurantes", "0 favoritos" e "Nenhum restaurante anunciado ainda").
+
+Conclusão: cada pedaço da tela que depende do mesmo dado é mais um lugar para eu lembrar de atualizar (problema 3 da aula). Agora são quatro coisas que precisam concordar entre si: lista, contador, favoritos e aviso. Se eu esquecer de uma, elas passam a discordar.

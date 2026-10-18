@@ -1,0 +1,25 @@
+EXPERIMENTO 1: Esqueça de propósito (CookSta)
+
+O que fiz: comentei a linha desenhar() de dentro do clique do botão:
+
+    document.getElementById("add").addEventListener("click", () => {
+        const input = document.getElementById("novo");
+        restaurantes.push({ id: Date.now(), nome: input.value, favorito: false });
+        input.value = "";
+        // desenhar();
+    });
+
+Depois digitei "Pizzaria Bella" e cliquei em Adicionar.
+
+O dado entrou no vetor? Sim.
+
+Como provo isso? Abrindo o console do navegador (F12 -> Console) e digitando:
+
+    restaurantes.length   -> 3  (eram 2 antes de adicionar)
+    restaurantes          -> mostra o vetor com "Pizzaria Bella" no final
+
+Dá para provar também colocando um console.log(restaurantes) logo depois do push.
+
+E a tela, o que mostra? A tela não muda: continua mostrando "2 restaurantes" e só os dois restaurantes originais. O dado está certo, mas a tela está mentindo.
+
+Conclusão: o dado mudou no push, mas a tela só muda quando eu chamo desenhar(). Se eu esquecer essa linha, nada quebra e nenhum erro aparece, só fica errado na cara do usuário. No CookSta, isso seria um restaurante anunciado que não aparece no feed. É o problema 1 da aula.

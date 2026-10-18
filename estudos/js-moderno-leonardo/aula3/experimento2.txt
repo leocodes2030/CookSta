@@ -1,0 +1,17 @@
+EXPERIMENTO 2: Perca o que foi digitado (CookSta)
+
+O que fiz: dentro do for da função desenhar(), coloquei um <input> dentro de cada <li> (imagine um campo de comentário em cada restaurante):
+
+    const li = document.createElement("li");
+    li.textContent = r.nome + (r.favorito ? " (favorito)" : "");
+    const campo = document.createElement("input");
+    li.appendChild(campo);
+    ul.appendChild(li);
+
+Digitei "meu comentario" no input do primeiro restaurante e cliquei em Adicionar.
+
+O que aconteceu com o que digitei? Sumiu. O campo voltou vazio.
+
+Causa: o desenhar() começa com ul.innerHTML = "", que apaga a lista inteira, e depois cria todos os <li> e <input> do zero. Os inputs que o usuário estava usando foram destruídos e substituídos por inputs novos, vazios. O texto digitado estava dentro dos elementos antigos, então foi embora junto com eles.
+
+Conclusão: redesenhar tudo destrói o que o usuário estava fazendo (problema 2 da aula). No CookSta, um usuário escrevendo um comentário perderia o texto toda vez que alguém anunciasse um restaurante novo. Com 500 restaurantes, eu reconstruo 500 para mudar 1.
