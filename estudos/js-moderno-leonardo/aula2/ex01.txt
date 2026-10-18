@@ -1,0 +1,3 @@
+Questão 1: Em uma frase, sem código: o que é uma Promise?
+
+Uma Promise é um objeto que representa um valor que ainda vai chegar, ou seja, o resultado futuro de uma operação que demora, como buscar dados em um servidor.

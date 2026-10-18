@@ -1,0 +1,9 @@
+Questão 10: Por que rodar produtos.map(async (p) => await ...
+
+(Obs.: o enunciado desta questão veio cortado no material da aula; a resposta abaixo se baseia na seção 6 da própria aula.)
+
+Porque o map não sabe esperar Promises. Ele dispara todas as chamadas de uma vez e devolve um array de Promises pending, e não os valores finais. O await dentro da função do map pausa apenas aquela função interna, não o map.
+
+Para obter os valores de verdade, o jeito certo é usar Promise.all:
+
+const resultados = await Promise.all(produtos.map(async (p) => await buscarProduto(p.id)));

@@ -1,0 +1,12 @@
+Questão 9: Qual a diferença entre a requisição falhar e o servidor responder com erro (ex.: 404)? Por que fetch sozinho não lança um erro no segundo caso?
+
+Requisição falhar (sem internet, servidor fora do ar): a requisição não consegue ser completada, a resposta nunca chega. Nesse caso o fetch rejeita a Promise e o erro cai no catch.
+
+Servidor responder com erro (ex.: 404): a comunicação funcionou, a resposta chegou normalmente, só que com um status de erro. Para o fetch, a Promise foi cumprida (fulfilled), então ele não lança erro.
+
+Por isso é preciso verificar resposta.ok (ou resposta.status) e, se for falso, lançar o erro manualmente para que ele seja tratado no catch. Exemplo:
+
+const resposta = await fetch(url);
+if (!resposta.ok) {
+    throw new Error("Erro do servidor: " + resposta.status);
+}

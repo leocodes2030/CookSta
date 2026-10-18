@@ -1,3 +1,9 @@
 const total = precos.map((p) => { p * 2 });
 
-o fato de "p*2" estar entre chaves faz o codigo executar de forma incorreta
+O problema é que, quando a arrow function usa chaves, o corpo vira um bloco de código e não um retorno implícito. Como falta o return, a função executa p * 2 mas não devolve nada, então cada elemento vira undefined e total fica como [undefined, undefined, ...].
+
+Correção 1 (retorno implícito, sem chaves):
+const total = precos.map((p) => p * 2);
+
+Correção 2 (com chaves e return explícito):
+const total = precos.map((p) => { return p * 2; });
