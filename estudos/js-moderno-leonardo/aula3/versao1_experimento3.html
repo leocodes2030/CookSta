@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CookSta - Aula 03 - Experimento 3 (com checkbox de favorito)</title>
+</head>
+<body>
+    <p id="contador"></p>
+    <p id="favoritos"></p>
+    <p id="aviso"></p>
+    <ul id="lista"></ul>
+    <input id="novo" placeholder="novo restaurante">
+    <label><input type="checkbox" id="novoFavorito"> favorito</label>
+    <button id="add">Adicionar</button>
+
+    <script>
+        let restaurantes = [
+            { id: 1, nome: "Cantina da Nonna", favorito: false },
+            { id: 2, nome: "Sushi do Centro", favorito: true }
+        ];
+
+        function desenhar() {
+            const ul = document.getElementById("lista");
+            ul.innerHTML = "";
+            for (const r of restaurantes) {
+                const li = document.createElement("li");
+                li.textContent = r.nome + (r.favorito ? " (favorito)" : "");
+                ul.appendChild(li);
+            }
+            document.getElementById("contador").textContent = restaurantes.length + " restaurantes";
+
+            // Experimento 3: contador de favoritos e aviso de lista vazia
+            const qtdFavoritos = restaurantes.filter(r => r.favorito).length;
+            document.getElementById("favoritos").textContent = qtdFavoritos + " favoritos";
+            document.getElementById("aviso").textContent =
+                restaurantes.length === 0 ? "Nenhum restaurante anunciado ainda" : "";
+        }
+
+        document.getElementById("add").addEventListener("click", () => {
+            const input = document.getElementById("novo");
+            const marcado = document.getElementById("novoFavorito");
+            restaurantes.push({ id: Date.now(), nome: input.value, favorito: marcado.checked });
+            input.value = "";
+            marcado.checked = false;
+            desenhar();
+        });
+
+        desenhar();
+    </script>
+</body>
+</html>

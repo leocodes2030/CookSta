@@ -1,0 +1,4 @@
+REGISTRO - Aula 03 (CookSta)
+
+O experimento que mais me incomodou foi o 1 (esquecer o desenhar()), porque o restaurante estava certo no vetor, mas a tela mostrava outra coisa e nenhum erro apareceu para me avisar. Sem erro no console, eu só descobriria olhando a tela, o que é muito difícil de achar num app com muitos lugares que alteram a lista.
+Em React, a tela é gerada a partir do dado, então não existe uma linha de "atualizar a tela" para esquecer.

@@ -1,0 +1,3 @@
+Questão 5: Por que colocar await dentro de uma função que não é async dá erro?
+
+Porque o await só existe dentro de uma função marcada como async. É o async que permite à função ser pausada e devolver uma Promise. Sem ele, o JavaScript não reconhece o await e gera um erro de sintaxe.

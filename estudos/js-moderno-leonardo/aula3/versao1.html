@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CookSta - Aula 03 - Versão 1 (JavaScript puro)</title>
+</head>
+<body>
+    <p id="contador"></p>
+    <ul id="lista"></ul>
+    <input id="novo" placeholder="novo restaurante">
+    <button id="add">Adicionar</button>
+
+    <script>
+        let restaurantes = [
+            { id: 1, nome: "Cantina da Nonna", favorito: false },
+            { id: 2, nome: "Sushi do Centro", favorito: true }
+        ];
+
+        function desenhar() {
+            const ul = document.getElementById("lista");
+            ul.innerHTML = "";
+            for (const r of restaurantes) {
+                const li = document.createElement("li");
+                li.textContent = r.nome + (r.favorito ? " (favorito)" : "");
+                ul.appendChild(li);
+            }
+            document.getElementById("contador").textContent = restaurantes.length + " restaurantes";
+        }
+
+        document.getElementById("add").addEventListener("click", () => {
+            const input = document.getElementById("novo");
+            restaurantes.push({ id: Date.now(), nome: input.value, favorito: false });
+            input.value = "";
+            desenhar();
+        });
+
+        desenhar();
+    </script>
+</body>
+</html>

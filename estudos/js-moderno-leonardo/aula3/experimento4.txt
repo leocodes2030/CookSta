@@ -1,0 +1,18 @@
+EXPERIMENTO 4: Quebre a cola (CookSta)
+
+O que fiz: troquei no HTML id="lista" por id="listaRestaurantes" e não mexi no JavaScript.
+
+O navegador reclama? Não reclama ao carregar o HTML. O HTML não sabe que o JavaScript usa aquele id, então nada avisa na hora de renomear.
+
+Onde e quando o erro aparece? No console do navegador (F12 -> Console), em tempo de execução, assim que a página carrega e o desenhar() roda pela primeira vez. A mensagem é:
+
+    Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')
+
+Isso acontece na linha ul.innerHTML = "". O getElementById("lista") não encontrou nada e devolveu null, então a tentativa de usar null.innerHTML dá erro.
+
+Consequências que observei:
+  - A lista de restaurantes não aparece.
+  - O contador também não é preenchido, porque o erro interrompe o desenhar() antes de chegar na linha do contador.
+  - Ao clicar em Adicionar, o erro aparece de novo (o restaurante entra no vetor, mas a tela não reage).
+
+Conclusão: os id do HTML são uma cola invisível (problema 4 da aula). O erro só aparece quando o código roda, e pode ser só na tela do usuário.
