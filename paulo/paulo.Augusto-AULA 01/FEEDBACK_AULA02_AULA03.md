@@ -1,1 +1,1 @@
-Este feedback foi substituído. A nota e o motivo do primeiro momento estão no arquivo MOTIVO_NOTA.md da pasta paulo.
+Este feedback foi substituído. A nota e o motivo do primeiro momento estão no arquivo MOTIVO_NOTA.md na pasta paulo.
